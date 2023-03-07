@@ -1,0 +1,3 @@
+C:/Users/airam/CLionProjects/AkariPuzzle/cmake-build-debug/CMakeFiles/AkariPuzzle.dir
+C:/Users/airam/CLionProjects/AkariPuzzle/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/airam/CLionProjects/AkariPuzzle/cmake-build-debug/CMakeFiles/rebuild_cache.dir
