@@ -25,6 +25,7 @@ tCelda charToCelda(char c) {
     } else if (c == '*') {
         celda.tipo = BOMBILLA;
     }
+    return celda;
 }
 
 bool esPared(const tCelda& c) {
@@ -47,18 +48,11 @@ bool esBombilla(const tCelda& c) {
 }
 
 bool estaApagada(const tCelda& c) {
-    bool ok = false;
-    if (c.tipo == LIBRE && c.numBombillas == 0) {
-        ok = true;
-    }
-    return ok;
+    return c.tipo == LIBRE && c.numBombillas == 0;
 }
 bool estaIluminada(const tCelda& c) {
-    bool ok = false;
-    if (c.tipo == LIBRE && c.numBombillas > 0) {
-        ok = true;
-    }
-    return ok;
+
+    return c.tipo == LIBRE && c.numBombillas > 0;
 }
 void apagaCelda(tCelda& c) {
     c.tipo = LIBRE;

@@ -61,6 +61,18 @@ build CMakeFiles/AkariPuzzle.dir/celda.cpp.obj: CXX_COMPILER__AkariPuzzle_Debug 
   OBJECT_DIR = CMakeFiles\AkariPuzzle.dir
   OBJECT_FILE_DIR = CMakeFiles\AkariPuzzle.dir
 
+build CMakeFiles/AkariPuzzle.dir/tablero.cpp.obj: CXX_COMPILER__AkariPuzzle_Debug C$:/Users/airam/CLionProjects/AkariPuzzle/tablero.cpp || cmake_object_order_depends_target_AkariPuzzle
+  DEP_FILE = CMakeFiles\AkariPuzzle.dir\tablero.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AkariPuzzle.dir
+  OBJECT_FILE_DIR = CMakeFiles\AkariPuzzle.dir
+
+build CMakeFiles/AkariPuzzle.dir/reglasJuego.cpp.obj: CXX_COMPILER__AkariPuzzle_Debug C$:/Users/airam/CLionProjects/AkariPuzzle/reglasJuego.cpp || cmake_object_order_depends_target_AkariPuzzle
+  DEP_FILE = CMakeFiles\AkariPuzzle.dir\reglasJuego.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\AkariPuzzle.dir
+  OBJECT_FILE_DIR = CMakeFiles\AkariPuzzle.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target AkariPuzzle
@@ -69,7 +81,7 @@ build CMakeFiles/AkariPuzzle.dir/celda.cpp.obj: CXX_COMPILER__AkariPuzzle_Debug 
 #############################################
 # Link the executable AkariPuzzle.exe
 
-build AkariPuzzle.exe: CXX_EXECUTABLE_LINKER__AkariPuzzle_Debug CMakeFiles/AkariPuzzle.dir/main.cpp.obj CMakeFiles/AkariPuzzle.dir/celda.cpp.obj
+build AkariPuzzle.exe: CXX_EXECUTABLE_LINKER__AkariPuzzle_Debug CMakeFiles/AkariPuzzle.dir/main.cpp.obj CMakeFiles/AkariPuzzle.dir/celda.cpp.obj CMakeFiles/AkariPuzzle.dir/tablero.cpp.obj CMakeFiles/AkariPuzzle.dir/reglasJuego.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\AkariPuzzle.dir
